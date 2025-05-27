@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #06462b;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header .logo img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+form label, form input, form button {
+    display: block;
+    margin-bottom: 1em;
+}
+
+button {
+    background: #06462b;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background: #06462b;
+    color: white;
+}
